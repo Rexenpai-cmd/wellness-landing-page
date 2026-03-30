@@ -1,0 +1,254 @@
+import dentalSvg from "../assets/svg/dental.svg";
+import brokenBone from "../assets/svg/broken-bone.svg";
+import heartSvg from "../assets/svg/heart-with-pulse.svg";
+import virusSvg from "../assets/svg/virus.svg";
+import eyeSvg from "../assets/svg/eye.svg";
+import efferVescent from "../assets/svg/effervescent.svg";
+
+import doctor1 from "../assets/doctors/doctor1.png";
+import doctor2 from "../assets/doctors/doctor2.png";
+import doctor3 from "../assets/doctors/doctor3.png";
+import doctor4 from "../assets/doctors/doctor4.png";
+import doctor5 from "../assets/doctors/doctor5.png";
+import doctor6 from "../assets/doctors/doctor6.png";
+import doctor7 from "../assets/doctors/doctor7.png";
+import doctor8 from "../assets/doctors/doctor8.png";
+import doctor9 from "../assets/doctors/doctor9.png";
+
+import exp1 from "../assets/experience/exp-img1.png";
+import exp2 from "../assets/experience/exp-img2.png";
+
+import search from "../assets/svg/search.svg";
+import whiteArrowDown from "../assets/svg/arrow-down.svg";
+import orangeArrowRight from "../assets/svg/orange-arrow-right.svg";
+import whiteClockOutline from "../assets/svg/white-clock-outline.svg";
+import greyArrowDown from "../assets/svg/grey-arrow-down.svg";
+import doctorsBag from "../assets/svg/doctors-bag.svg";
+import straitJacket from "../assets/svg/strait-jacket.svg";
+import calendar from "../assets/svg/calendar.svg";
+import clock from "../assets/svg/clock.svg";
+import bluePlay from "../assets/svg/blue-play.svg";
+import drops from "../assets/svg/drops.svg";
+import redArrowRight from "../assets/svg/red-arrow-right.svg";
+import orangeDiagonalArrow from "../assets/svg/orange-diagonal-arrow.svg";
+import whiteArrowRight from "../assets/svg/white-arrow-right.svg";
+import checkmark from "../assets/svg/checkmark-circle.svg";
+import redArrowDown from "../assets/svg/red-arrow-down.svg";
+import orangeArrowDown from "../assets/svg/orange-arrow-down.svg";
+import blueDiagonalArrow from "../assets/svg/blue-diagonal-arrow.svg";
+import greyArrowLeft from "../assets/svg/grey-arrow-left.svg";
+import redRightArrow from "../assets/svg/red-arrow-right.svg";
+import phone from "../assets/svg/phone.svg";
+import email from "../assets/svg/email.svg";
+import facebook from "../assets/svg/Facebook.svg";
+import instagram from "../assets/svg/Instagram.svg";
+import whatsApp from "../assets/svg/WhatsApp.svg";
+
+export {
+    search,
+    whiteArrowDown,
+    orangeArrowRight,
+    whiteClockOutline,
+    greyArrowDown,
+    doctorsBag,
+    straitJacket,
+    calendar,
+    clock,
+    bluePlay,
+    drops,
+    redArrowRight,
+    orangeDiagonalArrow,
+    whiteArrowRight,
+    checkmark,
+    redArrowDown,
+    orangeArrowDown,
+    blueDiagonalArrow,
+    greyArrowLeft,
+    redRightArrow,
+    phone,
+    email,
+    facebook,
+    instagram,
+    whatsApp,
+};
+
+export const services = [
+    {
+        id: "01",
+        icon: dentalSvg,
+        label: "Dental Care",
+        text: "We provide comprehensive dental treatments including cleanings, fillings, and cosmetic procedures for a healthier smile.",
+    },
+    {
+        id: "02",
+        icon: brokenBone,
+        label: "Orthopedics",
+        text: "Our orthopedic specialists treat bone, joint, and muscle conditions to help you move better and live pain-free.",
+    },
+    {
+        id: "03",
+        icon: heartSvg,
+        label: "Health Care",
+        text: "Expert cardiac care from diagnosis to treatment, keeping your heart healthy with advanced technology and compassionate doctors.",
+    },
+    {
+        id: "04",
+        icon: virusSvg,
+        label: "Pathology",
+        text: "Accurate lab testing and diagnostics to detect diseases early and support effective treatment planning for every patient.",
+    },
+    {
+        id: "05",
+        icon: eyeSvg,
+        label: "Eye Care",
+        text: "Complete eye health services from routine checkups to advanced surgical procedures for clearer, sharper vision.",
+    },
+    {
+        id: "06",
+        icon: efferVescent,
+        label: "Internal Disease",
+        text: "Specialized care for complex internal conditions including diabetes, thyroid disorders, and chronic illness management.",
+    },
+];
+
+export const doctors = [
+    {
+        profile: doctor1,
+        name: "Micol Efigenia",
+        role: "Cardiologist",
+        bio: "Cardiologist with 8 years of experience, certified as one of the top heart specialists in the region.",
+    },
+    {
+        profile: doctor2,
+        name: "Irma Winnifred",
+        role: "Dentist",
+        bio: "Dedicated dentist with a passion for creating healthy smiles through gentle and modern dental care.",
+    },
+    {
+        profile: doctor3,
+        name: "Mnason Prabhakar",
+        role: "Pathologist",
+        bio: "Expert pathologist with years of experience in accurate disease diagnosis and laboratory analysis.",
+    },
+    {
+        profile: doctor4,
+        name: "Lage Rodrigo",
+        role: "Orthopedics",
+        bio: "Orthopedic specialist focused on restoring mobility and relieving pain through advanced bone and joint care.",
+    },
+    {
+        profile: doctor5,
+        name: "Giusi Marjut",
+        role: "Surgeon",
+        bio: "Skilled surgeon with extensive experience in minimally invasive procedures and complex surgical operations.",
+    },
+    {
+        profile: doctor6,
+        name: "Freyr Johano",
+        role: "Internist",
+        bio: "Internist specializing in the prevention and treatment of chronic conditions and complex internal diseases.",
+    },
+    {
+        profile: doctor7,
+        name: "Sam Smith",
+        role: "Internist",
+        bio: "Dedicated to preventing and managing chronic conditions, helping patients maintain long-term health through personalized care.",
+    },
+    {
+        profile: doctor8,
+        name: "Arnold Johnson",
+        role: "Pathologist",
+        bio: "Expert in diagnosing diseases through laboratory analysis, providing critical insights that guide accurate and effective treatment.",
+    },
+    {
+        profile: doctor9,
+        name: "Brian West",
+        role: "Cardiologist",
+        bio: "Focused on heart health and cardiovascular disease, delivering advanced cardiac care to improve patients' quality of life.",
+    },
+    {
+        profile: doctor9,
+        name: "Maria Lopez",
+        role: "Neurologist",
+        bio: "Specialized in disorders of the nervous system, helping patients navigate complex neurological conditions with compassion and precision.",
+    },
+    {
+        profile: doctor9,
+        name: "James Carter",
+        role: "Surgeon",
+        bio: "Skilled in restoring mobility and relieving pain through innovative surgical and non-surgical treatments for musculoskeletal conditions.",
+    },
+    {
+        profile: doctor9,
+        name: "Sophia Nguyen",
+        role: "Pediatrician",
+        bio: "Committed to the health and development of children, providing compassionate care from infancy through adolescence.",
+    },
+];
+
+export const pricing = [
+    {
+        name: "Join Room",
+        description:
+            "Affordable care with essential amenities for a comfortable and stress-free recovery stay.",
+        price: 19.3,
+        recommended: false,
+        features: [
+            "Bedside Cabinet",
+            "Waiting Chair",
+            "Bathroom (Hot & Cold Water)",
+            "TV LED",
+        ],
+    },
+    {
+        name: "VIP",
+        description:
+            "Enhanced comfort and premium amenities for patients who deserve a little extra care.",
+        price: 30.5,
+        recommended: true,
+        features: [
+            "Bedside Cabinet",
+            "Waiting Chair",
+            "Bathroom (Hot & Cold Water)",
+            "TV LED + WIFI",
+        ],
+    },
+    {
+        name: "VVIP Room",
+        description:
+            "The ultimate luxury experience with top-tier facilities and personalized medical attention.",
+        price: 50.6,
+        recommended: false,
+        features: [
+            "Bedside Cabinet",
+            "Waiting Chair + Sofa",
+            "Bathroom (Hot & Cold Water)",
+            "TV LED + WIFI",
+        ],
+    },
+];
+
+export const experience = [
+    {
+        image: exp1,
+        title: "Book-In Hospital Visits",
+        description:
+            "Schedule in-person hospital visits with ease and get the care you need from our expert medical team.",
+        features: [
+            "Same or next day appointment",
+            "Personal membership",
+            "On-site lab service",
+        ],
+    },
+    {
+        image: exp2,
+        title: "Get Virtual Care",
+        description:
+            "Access quality healthcare from the comfort of your home through our secure virtual care platform.",
+        features: [
+            "Same or next day appointment",
+            "Personal membership",
+            "On-site lab service",
+        ],
+    },
+];
