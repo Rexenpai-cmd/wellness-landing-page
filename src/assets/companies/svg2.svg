@@ -1,0 +1,8 @@
+<svg width="37" height="60" viewBox="0 0 37 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="24" width="12" height="12" fill="#3498DB"/>
+<rect x="36" y="36" width="12" height="12" transform="rotate(180 36 36)" fill="#2677BC"/>
+<path d="M12 24L24 12V24L12 36V24Z" fill="#D6F6FD"/>
+<path d="M24 36L12 48L12 36L24 24L24 36Z" fill="#AEEAFB"/>
+<path d="M0 24L24 0V12L12 24H0Z" fill="#84D4F4"/>
+<path d="M36 36L12 60L12 48L24 36L36 36Z" fill="#63BBE9"/>
+</svg>
