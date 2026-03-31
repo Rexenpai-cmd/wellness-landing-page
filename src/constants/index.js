@@ -43,6 +43,22 @@ import email from "../assets/svg/email.svg";
 import facebook from "../assets/svg/Facebook.svg";
 import instagram from "../assets/svg/Instagram.svg";
 import whatsApp from "../assets/svg/WhatsApp.svg";
+import logo from "../assets/svg/logo.svg";
+import wellness from "../assets/svg/wellness.svg";
+import menu from "../assets/svg/menu.svg";
+
+import patient1 from "../assets/testimonial/patient1.png";
+import patient2 from "../assets/testimonial/patient2.png";
+import patient3 from "../assets/testimonial/patient3.png";
+import patient4 from "../assets/testimonial/patient3.png";
+import patient5 from "../assets/testimonial/patient3.png";
+import patient6 from "../assets/testimonial/patient3.png";
+import patient7 from "../assets/testimonial/patient3.png";
+import patient8 from "../assets/testimonial/patient3.png";
+import patient9 from "../assets/testimonial/patient3.png";
+
+import heroBg from "../assets/hero/hero-bg.png";
+import heroImg from "../assets/hero/hero-img.png";
 
 export {
     search,
@@ -70,7 +86,45 @@ export {
     facebook,
     instagram,
     whatsApp,
+    logo,
+    wellness,
+    menu,
+    heroBg,
+    heroImg,
 };
+
+export const nav = [
+    {
+        id: 1,
+        title: "Home",
+        url: "#home",
+    },
+    {
+        id: 2,
+        title: "About",
+        url: "#about",
+    },
+    {
+        id: 3,
+        title: "Doctors",
+        url: "#doctors",
+    },
+    {
+        id: 4,
+        title: "Services",
+        sub: true,
+    },
+    {
+        id: 5,
+        title: "Blog",
+        url: "#blog",
+    },
+    {
+        id: 6,
+        title: "Pages",
+        sub: true,
+    },
+];
 
 export const services = [
     {
@@ -250,5 +304,53 @@ export const experience = [
             "Personal membership",
             "On-site lab service",
         ],
+    },
+];
+
+export const testimonials = [
+    {
+        profile: patient1,
+        label: "Housewife & Mother of 3",
+        review: "The nurses and doctors made me feel so safe throughout my entire recovery. I never felt alone, and the care I received was beyond anything I expected.",
+    },
+    {
+        profile: patient2,
+        label: "Former Inpatient",
+        review: "After my surgery, the rehab team guided me every step of the way. Their patience and expertise helped me regain my strength faster than I thought possible.",
+    },
+    {
+        profile: patient3,
+        label: "Former Pregnant Mother",
+        review: "The maternity ward staff were incredibly attentive and compassionate. They made my delivery experience peaceful and memorable in the best way possible.",
+    },
+    {
+        profile: patient4,
+        label: "Outpatient Visitor",
+        review: "I came in for a routine check-up and was impressed by how thorough and friendly every staff member was. It is rare to find a hospital that truly listens.",
+    },
+    {
+        profile: patient5,
+        label: "Emergency Care Patient",
+        review: "The emergency team acted quickly and calmly when I was brought in. Thanks to their fast response and skilled hands, I made a full recovery within weeks.",
+    },
+    {
+        profile: patient6,
+        label: "Family of a Patient",
+        review: "Watching my father receive such dignified and attentive care during his final months gave our family so much comfort. This hospital truly feels like a healing place.",
+    },
+    {
+        profile: patient7,
+        label: "Parent of a Young Patient",
+        review: "The pediatric ward was warm, child-friendly, and the doctors explained everything clearly to me as a parent. My son felt at ease the entire time he was admitted.",
+    },
+    {
+        profile: patient8,
+        label: "Cardiac Care Patient",
+        review: "I was nervous about my cardiac procedure, but the cardiologist took the time to walk me through everything. The follow-up care has been just as thorough and reassuring.",
+    },
+    {
+        profile: patient9,
+        label: "Senior Outpatient",
+        review: "As a senior citizen, I appreciated how patient and respectful the entire staff was. They never made me feel rushed and always made sure I understood my treatment plan.",
     },
 ];

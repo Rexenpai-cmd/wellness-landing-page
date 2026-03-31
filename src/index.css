@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+
 @import "tailwindcss";
 
 @theme {
@@ -29,4 +31,17 @@
     --text-b3: 18px;
     --text-b4: 16px;
     --text-b5: 14px;
+
+    --font-display: "Heebo", sans-serif;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+@layer base {
+    html,
+    body {
+        @apply font-display text-base;
+    }
 }

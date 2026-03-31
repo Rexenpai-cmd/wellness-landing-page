@@ -1,16 +1,16 @@
 import React from "react";
 import { blueDiagonalArrow, redArrowRight } from "./constants";
+import Header from "./components/Header";
+import Hero from "./screens/Hero";
 
 const App = () => {
     return (
-        <div>
-            <h1 className="text-primary">primary</h1>
-            <h1 className="text-secondary">secondary</h1>
-            <h1 className="text-accent">accent</h1>
-            <img src={redArrowRight} alt="" />
-            <img src={blueDiagonalArrow} alt="" />
-            <img src={redArrowRight} alt="" />
-        </div>
+        <>
+            <div className="px-4 md:px-25 overflow-hidden">
+                <Header />
+                <Hero />
+            </div>
+        </>
     );
 };
 
