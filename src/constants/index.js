@@ -178,6 +178,25 @@ export const executives = [
     },
 ];
 
+export const statistics = [
+    {
+        stat: "500k+",
+        label: "Recovered Patients",
+    },
+    {
+        stat: "90+",
+        label: "Expert Doctors",
+    },
+    {
+        stat: "95%",
+        label: "Satisfaction Rate",
+    },
+    {
+        stat: "100+",
+        label: "Awards",
+    },
+];
+
 export const services = [
     {
         id: "01",

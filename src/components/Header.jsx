@@ -17,7 +17,9 @@ const Header = () => {
     }
 
     return (
-        <div className="fixed top-0 py-2.5 right-0 left-0 z-50">
+        <div
+            className={`fixed top-0 py-2.5 right-0 left-0 z-50 ${menu ? "" : "bg-bgColor/80 backdrop-blur-md"} `}
+        >
             <div className="flex justify-between px-5 w-full md:px-10 lg:px-25">
                 <HamburgerMenu
                     className="hidden md:flex lg:hidden"
@@ -36,7 +38,10 @@ const Header = () => {
                         {nav.map((i, index) =>
                             i.url ? (
                                 <a
-                                    onClick={() => toggleMenu()}
+                                    onClick={() => {
+                                        setMenu(false);
+                                        enablePageScroll();
+                                    }}
                                     href={i.url}
                                     className="text-[28px] text-white font-medium md:text-h9 hover:text-secondary transition-colors duration-300 lg:text-s6"
                                 >
@@ -44,7 +49,10 @@ const Header = () => {
                                 </a>
                             ) : (
                                 <button
-                                    onClick={() => toggleMenu()}
+                                    onClick={() => {
+                                        setMenu(false);
+                                        enablePageScroll();
+                                    }}
                                     className="flex items-center justify-center gap-2.5 cursor-pointer"
                                 >
                                     <a className="text-[28px] text-white  font-medium md:text-h9 hover:text-secondary transition-colors duration-300 lg:text-s6">

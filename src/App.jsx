@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Hero from "./screens/Hero";
 import About from "./screens/About";
 import Companies from "./components/Companies";
+import Statistics from "./components/Statistics";
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
                 <Hero />
                 <Companies />
                 <About />
+                <Statistics />
             </div>
         </>
     );
