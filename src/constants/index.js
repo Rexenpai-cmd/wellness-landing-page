@@ -61,6 +61,15 @@ import patient9 from "../assets/testimonial/patient3.png";
 import heroBg from "../assets/hero/hero-bg.png";
 import heroImg from "../assets/hero/hero-img.png";
 
+import logoMark1 from "../assets/companies/svg1.svg";
+import logoMark2 from "../assets/companies/svg2.svg";
+import logoMark3 from "../assets/companies/svg3.svg";
+import logoMark4 from "../assets/companies/svg4.svg";
+import logoType1 from "../assets/companies/logo-type1.svg";
+import logoType2 from "../assets/companies/logo-type2.svg";
+import logoType3 from "../assets/companies/logo-type3.svg";
+import logoType4 from "../assets/companies/logo-type4.svg";
+
 export {
     search,
     whiteArrowDown,
@@ -125,6 +134,25 @@ export const nav = [
         id: 6,
         title: "Pages",
         sub: true,
+    },
+];
+
+export const companies = [
+    {
+        logo: logoMark1,
+        name: logoType1,
+    },
+    {
+        logo: logoMark2,
+        name: logoType2,
+    },
+    {
+        logo: logoMark3,
+        name: logoType3,
+    },
+    {
+        logo: logoMark4,
+        name: logoType4,
     },
 ];
 

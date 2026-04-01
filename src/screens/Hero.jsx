@@ -12,17 +12,17 @@ const Hero = () => {
     return (
         <div
             style={{ backgroundImage: `url(${heroBg})` }}
-            className="mb-20 px-4 w-screen pt-[150px] bg-cover bg-center bg-no-repeat flex items-center justify-center min-h-screen md:mb-30 md:px-[64px] lg:px-[121px] lg:pt-[80px]"
+            className="px-4 w-screen pt-37.5 bg-cover bg-center bg-no-repeat flex items-center justify-center min-h-screen md:px-16 lg:px-30 lg:pt-20"
         >
             <div className="flex items-center justify-center flex-col lg:flex-row">
-                <div className="flex items-start justify-center flex-col gap-[50px] lg:gap-[119px]">
-                    <div className="flex items-center justify-center flex-col gap-[28px] lg:items-start">
-                        <div className="px-[25px] py-[12px] border-3 border-accent bg-accent/60 rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl">
+                <div className="flex items-start justify-center flex-col gap-12.5 lg:gap-29.75">
+                    <div className="flex items-center justify-center flex-col gap-7 lg:items-start">
+                        <div className="px-6.25 py-3 border-3 border-accent bg-accent/60 rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl">
                             <h6 className="uppercase text-s7 font-medium text-white tracking-widest">
                                 Your Health is Our Priority
                             </h6>
                         </div>
-                        <h1 className="text-h10 leading-[1.3] md:text-[42px] text-center lg:text-left font-bold text-white lg:text-h7">
+                        <h1 className="text-h10 leading-[1.3] md:text-h8 text-center lg:text-left font-bold text-white lg:text-h7">
                             More Than Medicine
                             <br />
                             It’s Personal
@@ -31,9 +31,9 @@ const Hero = () => {
                             Wellness Hospital will always serve you
                             wholeheartedly. Health is a priority.
                         </h4>
-                        <div className="flex items-center gap-[20px] flex-col w-full md:flex-row md:w-auto md:justify-center md:w-auto ">
+                        <div className="flex items-center gap-5 flex-col w-full md:flex-row md:w-auto md:justify-center ">
                             <Button
-                                className="bg-secondary px-[30px] py-[15px]"
+                                className="bg-secondary px-7.5 py-3.75"
                                 primaryBtn
                             >
                                 <h5 className="text-s5 z-10 font-medium text-white">
@@ -46,22 +46,22 @@ const Hero = () => {
                                 />
                             </Button>
                             <h6 className="text-b5 text-white">or</h6>
-                            <Button className="border-2 border-white px-[40px] py-[18px]">
+                            <Button className="border-2 border-white px-10 py-4.5">
                                 <h5 className="text-s5 z-10 font-medium text-white">
                                     Contact Us
                                 </h5>
                             </Button>
                         </div>
                     </div>
-                    <div className="flex items-center justify-center flex-col gap-[20px] w-full lg:flex-row lg:justify-start">
-                        <div className="flex items-center justify-center bg-accent px-[21px] py-[21px] rounded-3xl">
+                    <div className="flex items-center justify-center flex-col gap-5 w-full lg:flex-row lg:justify-start">
+                        <div className="flex items-center justify-center bg-accent px-5.25 py-5.25 rounded-3xl">
                             <img
                                 src={whiteClockOutline}
                                 alt="Clock"
-                                className="h-[45px] w-[45px]"
+                                className="h-11.25 w-11.25"
                             />
                         </div>
-                        <div className=" flex items-start justify-center flex-col gap-[8px]">
+                        <div className=" flex items-start justify-center flex-col gap-2">
                             <h6 className="text-s6 font-medium text-white text-center w-full lg:text-start">
                                 Opening Hours
                             </h6>
