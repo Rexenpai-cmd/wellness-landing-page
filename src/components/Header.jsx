@@ -14,7 +14,7 @@ const Header = () => {
     }
 
     return (
-        <div className="fixed top-0 py-2.5 right-0 left-0 z-50 bg-primary">
+        <div className="fixed top-0 py-2.5 right-0 left-0 z-50">
             <div className="flex justify-between px-5 w-full md:px-10 lg:px-25">
                 <HamburgerMenu
                     className="hidden md:flex lg:hidden"

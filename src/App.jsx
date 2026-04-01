@@ -2,11 +2,12 @@ import React from "react";
 import { blueDiagonalArrow, redArrowRight } from "./constants";
 import Header from "./components/Header";
 import Hero from "./screens/Hero";
+import About from "./screens/About";
 
 const App = () => {
     return (
         <>
-            <div className="px-4 md:px-25 overflow-hidden">
+            <div className="overflow-hidden">
                 <Header />
                 <Hero />
             </div>

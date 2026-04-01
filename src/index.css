@@ -7,26 +7,29 @@
     --color-secondary: #ff6f61;
     --color-accent: #5ee088;
 
+    --color-primaryHover: #ff5545;
+    --color-secondaryHover: #333333;
+
     --color-text-white: #fafafa;
     --color-textPrimary: #313131;
     --color-textSecondary: #5b5b5b;
     --color-textTertiary: #969696;
 
-    --text-h5: 72px;
-    --text-h6: 64px;
-    --text-h7: 58px;
-    --text-h8: 48px;
-    --text-h9: 36px;
-    --text-h10: 32px;
+    --text-h5: 66px;
+    --text-h6: 58px;
+    --text-h7: 46px;
+    --text-h8: 42px;
+    --text-h9: 30px;
+    --text-h10: 26px;
 
-    --text-s3: 30px;
-    --text-s4: 24px;
-    --text-s5: 20px;
-    --text-s6: 18px;
-    --text-s7: 16px;
-    --text-s8: 14px;
+    --text-s3: 24px;
+    --text-s4: 22px;
+    --text-s5: 18px;
+    --text-s6: 16px;
+    --text-s7: 14px;
+    --text-s8: 12px;
 
-    --text-b1: 24px;
+    --text-b1: 22px;
     --text-b2: 20px;
     --text-b3: 18px;
     --text-b4: 16px;

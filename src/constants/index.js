@@ -21,6 +21,7 @@ import exp2 from "../assets/experience/exp-img2.png";
 import search from "../assets/svg/search.svg";
 import whiteArrowDown from "../assets/svg/arrow-down.svg";
 import orangeArrowRight from "../assets/svg/orange-arrow-right.svg";
+import circularArrowRight from "../assets/svg/circular-arrow-right.svg";
 import whiteClockOutline from "../assets/svg/white-clock-outline.svg";
 import greyArrowDown from "../assets/svg/grey-arrow-down.svg";
 import doctorsBag from "../assets/svg/doctors-bag.svg";
@@ -91,6 +92,7 @@ export {
     menu,
     heroBg,
     heroImg,
+    circularArrowRight,
 };
 
 export const nav = [
