@@ -6,6 +6,7 @@
     --color-primary: #3498db;
     --color-secondary: #ff6f61;
     --color-accent: #5ee088;
+    --color-light: #e1e1e1;
 
     --color-primaryHover: #ff5545;
     --color-secondaryHover: #333333;
@@ -18,12 +19,12 @@
     --text-h5: 66px;
     --text-h6: 58px;
     --text-h7: 46px;
-    --text-h8: 42px;
+    --text-h8: 42px; /* 48 */
     --text-h9: 30px;
     --text-h10: 26px;
 
     --text-s3: 24px;
-    --text-s4: 22px;
+    --text-s4: 22px; /* 24 */
     --text-s5: 18px;
     --text-s6: 16px;
     --text-s7: 14px;

@@ -70,6 +70,11 @@ import logoType2 from "../assets/companies/logo-type2.svg";
 import logoType3 from "../assets/companies/logo-type3.svg";
 import logoType4 from "../assets/companies/logo-type4.svg";
 
+import aboutImg1 from "../assets/about/about-img1.png";
+import aboutImg2 from "../assets/about/about-img2.png";
+import aboutProfile1 from "../assets/about/about-profile1.png";
+import aboutProfile2 from "../assets/about/about-profile2.png";
+
 export {
     search,
     whiteArrowDown,
@@ -102,6 +107,10 @@ export {
     heroBg,
     heroImg,
     circularArrowRight,
+    aboutImg1,
+    aboutImg2,
+    aboutProfile1,
+    aboutProfile2,
 };
 
 export const nav = [
@@ -153,6 +162,19 @@ export const companies = [
     {
         logo: logoMark4,
         name: logoType4,
+    },
+];
+
+export const executives = [
+    {
+        profile: aboutProfile1,
+        role: "CEO of Wellness Hospital",
+        text: "At Wellness Hospital, our mission is to provide compassionate care with cutting-edge medical technology. We believe in treating every patient like family and ensuring their journey to recovery is supported at every step.",
+    },
+    {
+        profile: aboutProfile2,
+        role: "Vice Director of Wellness Hospital",
+        text: "Wellness Hospital is more than just a healthcare facility—it’s a community dedicated to wellness and healing. Our team works tirelessly to deliver quality treatment and create a safe, supportive environment for all.",
     },
 ];
 

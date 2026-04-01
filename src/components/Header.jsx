@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { heroBg, nav, search, wellness, whiteArrowDown } from "../constants";
 import HamburgerMenu from "./HamburgerMenu";
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 const Header = () => {
     const [menu, setMenu] = useState(false);
@@ -8,8 +9,10 @@ const Header = () => {
     function toggleMenu() {
         if (menu) {
             setMenu(false);
+            enablePageScroll();
         } else {
             setMenu(true);
+            disablePageScroll();
         }
     }
 
@@ -33,13 +36,17 @@ const Header = () => {
                         {nav.map((i, index) =>
                             i.url ? (
                                 <a
+                                    onClick={() => toggleMenu()}
                                     href={i.url}
                                     className="text-[28px] text-white font-medium md:text-h9 hover:text-secondary transition-colors duration-300 lg:text-s6"
                                 >
                                     {i.title}
                                 </a>
                             ) : (
-                                <button className="flex items-center justify-center gap-2.5 cursor-pointer">
+                                <button
+                                    onClick={() => toggleMenu()}
+                                    className="flex items-center justify-center gap-2.5 cursor-pointer"
+                                >
                                     <a className="text-[28px] text-white  font-medium md:text-h9 hover:text-secondary transition-colors duration-300 lg:text-s6">
                                         {i.title}
                                     </a>

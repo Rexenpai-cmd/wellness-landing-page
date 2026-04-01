@@ -11,8 +11,9 @@ import Button from "../components/Button";
 const Hero = () => {
     return (
         <div
+            id="hero"
             style={{ backgroundImage: `url(${heroBg})` }}
-            className="px-4 w-screen pt-37.5 bg-cover bg-center bg-no-repeat flex items-center justify-center min-h-screen md:px-16 lg:px-30 lg:pt-20"
+            className="px-5 w-screen pt-37.5 bg-cover bg-center bg-no-repeat flex items-center justify-center min-h-screen md:px-16 lg:px-30 lg:pt-20"
         >
             <div className="flex items-center justify-center flex-col lg:flex-row">
                 <div className="flex items-start justify-center flex-col gap-12.5 lg:gap-29.75">
@@ -33,7 +34,7 @@ const Hero = () => {
                         </h4>
                         <div className="flex items-center gap-5 flex-col w-full md:flex-row md:w-auto md:justify-center ">
                             <Button
-                                className="bg-secondary px-7.5 py-3.75"
+                                className="bg-secondary px-7.5 py-3.75 w-full"
                                 primaryBtn
                             >
                                 <h5 className="text-s5 z-10 font-medium text-white">
@@ -46,7 +47,7 @@ const Hero = () => {
                                 />
                             </Button>
                             <h6 className="text-b5 text-white">or</h6>
-                            <Button className="border-2 border-white px-10 py-4.5">
+                            <Button className="border-2 border-white px-10 py-4.5 w-full">
                                 <h5 className="text-s5 z-10 font-medium text-white">
                                     Contact Us
                                 </h5>

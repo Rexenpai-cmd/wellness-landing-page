@@ -3,7 +3,7 @@ import React from "react";
 const Section = ({ children, className }) => {
     return (
         <div
-            className={`flex items-center mb-20 md:mb-30 w-full px-4 md:px-25 justify-center ${className}`}
+            className={`flex px-5 items-center w-full justify-center md:px-16 lg:px-30 ${className}`}
         >
             {children}
         </div>
