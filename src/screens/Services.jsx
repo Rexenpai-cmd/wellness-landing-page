@@ -47,7 +47,10 @@ const Services = () => {
                                     </h1>
                                 </div>
                             </div>
-                            <div className="flex items-center justify-center grow">
+                            <h1 className="text-h10 text-darkBlue font-medium text-start w-full">
+                                {service.label}
+                            </h1>
+                            <div className="flex items-start justify-center grow">
                                 <SubHeading className="text-textSecondary">
                                     {service.text}
                                 </SubHeading>

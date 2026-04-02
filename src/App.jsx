@@ -6,6 +6,7 @@ import About from "./screens/About";
 import Companies from "./components/Companies";
 import Statistics from "./components/Statistics";
 import Services from "./screens/Services";
+import Doctors from "./screens/Doctors";
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
                 <About />
                 <Statistics />
                 <Services />
+                <Doctors />
             </div>
         </>
     );
