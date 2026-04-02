@@ -5,6 +5,7 @@ import Hero from "./screens/Hero";
 import About from "./screens/About";
 import Companies from "./components/Companies";
 import Statistics from "./components/Statistics";
+import Services from "./screens/Services";
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
                 <Companies />
                 <About />
                 <Statistics />
+                <Services />
             </div>
         </>
     );

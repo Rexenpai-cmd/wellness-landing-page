@@ -11,7 +11,7 @@ import Button from "../components/Button";
 const Hero = () => {
     return (
         <div
-            id="hero"
+            id="home"
             style={{ backgroundImage: `url(${heroBg})` }}
             className="px-5 w-screen pt-37.5 bg-cover bg-center bg-no-repeat flex items-center justify-center min-h-screen md:px-16 lg:px-30 lg:pt-20"
         >

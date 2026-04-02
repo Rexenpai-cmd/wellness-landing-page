@@ -126,13 +126,13 @@ export const nav = [
     },
     {
         id: 3,
-        title: "Doctors",
-        url: "#doctors",
+        title: "Services",
+        sub: true,
     },
     {
         id: 4,
-        title: "Services",
-        sub: true,
+        title: "Doctors",
+        url: "#doctors",
     },
     {
         id: 5,
