@@ -3,7 +3,7 @@ import { companies, statistics } from "../constants";
 
 const Statistics = () => {
     return (
-        <div className="flex items-center justify-center w-full py-[60px] px-5 md:px-16 md:py-[80px] lg:py-25 lg:px-30">
+        <div className="flex items-center justify-center w-full py-15 px-5 md:px-16 md:py-20 lg:py-25 lg:px-30">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-10 w-full">
                 {statistics.map((stats, index) => (
                     <div
