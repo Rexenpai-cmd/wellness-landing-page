@@ -47,6 +47,7 @@ import whatsApp from "../assets/svg/WhatsApp.svg";
 import logo from "../assets/svg/logo.svg";
 import wellness from "../assets/svg/wellness.svg";
 import menu from "../assets/svg/menu.svg";
+import whiteDiagonalArrow from "../assets/svg/white-diagonal-arrow.svg";
 
 import patient1 from "../assets/testimonial/patient1.png";
 import patient2 from "../assets/testimonial/patient2.png";
@@ -75,6 +76,9 @@ import aboutImg2 from "../assets/about/about-img2.png";
 import aboutProfile1 from "../assets/about/about-profile1.png";
 import aboutProfile2 from "../assets/about/about-profile2.png";
 
+import appImg1 from "../assets/book/book-img1.png";
+import appImg2 from "../assets/book/book-img2.png";
+
 export {
     search,
     whiteArrowDown,
@@ -84,6 +88,7 @@ export {
     doctorsBag,
     straitJacket,
     calendar,
+    whiteDiagonalArrow,
     clock,
     bluePlay,
     drops,
@@ -111,6 +116,8 @@ export {
     aboutImg2,
     aboutProfile1,
     aboutProfile2,
+    appImg1,
+    appImg2,
 };
 
 export const nav = [

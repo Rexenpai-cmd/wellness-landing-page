@@ -7,6 +7,8 @@ import Companies from "./components/Companies";
 import Statistics from "./components/Statistics";
 import Services from "./screens/Services";
 import Doctors from "./screens/Doctors";
+import Appointment from "./screens/Appointment";
+import Pricing from "./screens/Pricing";
 
 const App = () => {
     return (
@@ -19,6 +21,7 @@ const App = () => {
                 <Statistics />
                 <Services />
                 <Doctors />
+                <Pricing />
             </div>
         </>
     );
