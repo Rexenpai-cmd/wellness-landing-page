@@ -9,7 +9,7 @@ const Button = ({
     return (
         <button
             onClick={onClick}
-            className={` ${className} relative flex items-center justify-center gap-3.5 rounded-full cursor-pointer overflow-hidden group ${primaryBtn ? "bg-secondary px-[25px] py-[13px] w-fit" : whiteBtn ? "bg-white px-[25px] py-[15px] w-fit" : "bg-transparent"}`}
+            className={` ${className} relative flex items-center justify-center gap-3.5 rounded-full cursor-pointer overflow-hidden group ${primaryBtn ? "bg-secondary px-6.25 py-3.25 w-fit" : whiteBtn ? "bg-white px-6.25 py-3.75 w-fit" : "bg-transparent"}`}
         >
             <div
                 className={`w-full h-full absolute right-full transition-all duration-400 ease-in-out group-hover:right-0 ${primaryBtn ? "bg-primaryHover" : secondaryBtn ? "bg-secondary/20" : "bg-secondaryHover/15"}`}

@@ -30,10 +30,10 @@ const Pricing = () => {
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 w-full">
                     {pricing.map((price) => (
-                        <div className="py-[30px] px-[30px] border-2 border-light rounded-3xl">
-                            <div className="flex items-center justify-center flex-col gap-[20px]">
-                                <div className="flex items-start justify-center flex-col gap-[20px]">
-                                    <div className="flex items-center justify-center gap-[5px]">
+                        <div className="py-7.5 px-7.5 border-2 border-light rounded-3xl">
+                            <div className="flex items-center justify-center flex-col gap-5">
+                                <div className="flex items-start justify-center flex-col gap-5">
+                                    <div className="flex items-center justify-center gap-1.25">
                                         <h6 className="text-s3 md:text-h10 lg:text-h9 text-darkBlue font-bold">
                                             {price.name}
                                         </h6>
@@ -45,11 +45,11 @@ const Pricing = () => {
                                             ""
                                         )}
                                     </div>
-                                    <div className="flex items-start justify-center flex-col gap-[20px]">
+                                    <div className="flex items-start justify-center flex-col gap-5">
                                         <SubHeading>
                                             {price.description}
                                         </SubHeading>
-                                        <div className="flex items-center justify-start gap-[5px]">
+                                        <div className="flex items-center justify-start gap-1.25">
                                             <h6 className="text-h9 lg:text-h8 text-primary font-bold">
                                                 ${price.price}
                                             </h6>
@@ -59,19 +59,19 @@ const Pricing = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="h-[1px] w-full bg-[#C8C8C8]" />
-                                <div className="flex items-start justify-center flex-col gap-[26px] w-full">
-                                    <div className="flex items-start flex-col gap-[20px]">
+                                <div className="h-px w-full bg-[#C8C8C8]" />
+                                <div className="flex items-start justify-center flex-col gap-6.5 w-full">
+                                    <div className="flex items-start flex-col gap-5">
                                         <h6 className="text-s4 font-medium text-primary">
                                             Features
                                         </h6>
-                                        <ul className="flex items-start flex-col gap-[15px]">
+                                        <ul className="flex items-start flex-col gap-3.75">
                                             {price.features.map((feature) => (
-                                                <div className="flex items-center justify-start gap-[14px]">
+                                                <div className="flex items-center justify-start gap-3.5">
                                                     <img
                                                         src={checkmark}
                                                         alt="Checkmark"
-                                                        className="h-[20px] w-[20px]"
+                                                        className="h-5 w-5"
                                                     />
                                                     <li className="text-b3 md:text-b2 text-textSecondary">
                                                         {feature}
@@ -80,7 +80,7 @@ const Pricing = () => {
                                             ))}
                                         </ul>
                                     </div>
-                                    <div className="flex items-center justify-center w-full flex-col gap-[11px]">
+                                    <div className="flex items-center justify-center w-full flex-col gap-2.75">
                                         <Button
                                             secondaryBtn
                                             className="py-3 px-7.5 border-2 border-secondary w-full"
