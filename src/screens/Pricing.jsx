@@ -2,6 +2,7 @@ import {
     blueDiagonalArrow,
     checkmark,
     circularArrowRight,
+    orangeArrowDown,
     orangeDiagonalArrow,
     pricing,
     whiteDiagonalArrow,
@@ -32,15 +33,24 @@ const Pricing = () => {
                         <div className="py-[30px] px-[30px] border-2 border-light rounded-3xl">
                             <div className="flex items-center justify-center flex-col gap-[20px]">
                                 <div className="flex items-start justify-center flex-col gap-[20px]">
-                                    <h6 className="text-h9 text-darkBlue font-bold">
-                                        {price.name}
-                                    </h6>
+                                    <div className="flex items-center justify-center gap-[5px]">
+                                        <h6 className="text-s3 md:text-h10 lg:text-h9 text-darkBlue font-bold">
+                                            {price.name}
+                                        </h6>
+                                        {price.recommended ? (
+                                            <h4 className="text-h10 text-lightBlue font-bold">
+                                                (Recommended)
+                                            </h4>
+                                        ) : (
+                                            ""
+                                        )}
+                                    </div>
                                     <div className="flex items-start justify-center flex-col gap-[20px]">
                                         <SubHeading>
                                             {price.description}
                                         </SubHeading>
-                                        <div className="flex items-center justify-start">
-                                            <h6 className="text-h8 text-primary font-bold">
+                                        <div className="flex items-center justify-start gap-[5px]">
+                                            <h6 className="text-h9 lg:text-h8 text-primary font-bold">
                                                 ${price.price}
                                             </h6>
                                             <p className="text-b1 text-textTertiary">
@@ -50,7 +60,7 @@ const Pricing = () => {
                                     </div>
                                 </div>
                                 <div className="h-[1px] w-full bg-[#C8C8C8]" />
-                                <div className="flex items-center justify-center flex-col gap-[26px]">
+                                <div className="flex items-start justify-center flex-col gap-[26px] w-full">
                                     <div className="flex items-start flex-col gap-[20px]">
                                         <h6 className="text-s4 font-medium text-primary">
                                             Features
@@ -63,7 +73,7 @@ const Pricing = () => {
                                                         alt="Checkmark"
                                                         className="h-[20px] w-[20px]"
                                                     />
-                                                    <li className="text-b1 text-textSecondary">
+                                                    <li className="text-b3 md:text-b2 text-textSecondary">
                                                         {feature}
                                                     </li>
                                                 </div>
@@ -73,22 +83,24 @@ const Pricing = () => {
                                     <div className="flex items-center justify-center w-full flex-col gap-[11px]">
                                         <Button
                                             secondaryBtn
-                                            className="py-3 px-7.5 border-2 border-secondary lg:w-full"
+                                            className="py-3 px-7.5 border-2 border-secondary w-full"
                                         >
                                             <h6 className="text-s7 text-secondary font-medium z-10">
-                                                Explore More
+                                                See More Features
                                             </h6>
                                             <img
-                                                src={orangeDiagonalArrow}
+                                                src={orangeArrowDown}
                                                 alt="Arrow Diagonal"
                                                 className="h-5 w-5"
                                             />
                                         </Button>
-                                        <p>or</p>
+                                        <p className="text-b5 text-textTertiary">
+                                            or
+                                        </p>
                                         <Button
                                             primaryBtn
                                             recommended={price.recommended}
-                                            className="py-3 px-7.5  lg:w-full"
+                                            className="py-3 px-7.5 w-full"
                                         >
                                             <h6 className="text-s7 text-white font-medium z-10">
                                                 Choose Plan

@@ -32,9 +32,9 @@ const Hero = () => {
                             Wellness Hospital will always serve you
                             wholeheartedly. Health is a priority.
                         </h4>
-                        <div className="flex items-center gap-5 flex-col w-full md:flex-row md:w-auto md:justify-center ">
+                        <div className="flex items-center gap-5 flex-col md:flex-row md:w-auto md:justify-center ">
                             <Button
-                                className="bg-secondary px-7.5 py-3.75 w-full"
+                                className="bg-secondary px-7.5 py-3.75 w-full whitespace-nowrap"
                                 primaryBtn
                             >
                                 <h5 className="text-s5 z-10 font-medium text-white">
@@ -47,7 +47,7 @@ const Hero = () => {
                                 />
                             </Button>
                             <h6 className="text-b5 text-white">or</h6>
-                            <Button className="border-2 border-white px-10 py-4.5 w-full">
+                            <Button className="border-2 border-white px-10 py-4.5 shrink-0">
                                 <h5 className="text-s5 z-10 font-medium text-white">
                                     Contact Us
                                 </h5>
