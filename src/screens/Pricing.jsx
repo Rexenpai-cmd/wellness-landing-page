@@ -15,7 +15,7 @@ import Label from "../components/Label";
 
 const Pricing = () => {
     return (
-        <Section>
+        <Section className="mb-[70px]">
             <div className="flex items-center justify-center flex-col w-full gap-12.5">
                 <div className="flex items-start justify-center flex-col w-full gap-7.5">
                     <Label>pricing</Label>
