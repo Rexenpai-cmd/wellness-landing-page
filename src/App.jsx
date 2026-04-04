@@ -9,6 +9,7 @@ import Services from "./screens/Services";
 import Doctors from "./screens/Doctors";
 import Appointment from "./screens/Appointment";
 import Pricing from "./screens/Pricing";
+import Experience from "./screens/Experience";
 
 const App = () => {
     return (
@@ -22,6 +23,7 @@ const App = () => {
                 <Services />
                 <Doctors />
                 <Pricing />
+                <Experience />
             </div>
         </>
     );

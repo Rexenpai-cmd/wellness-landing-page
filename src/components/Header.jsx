@@ -28,7 +28,7 @@ const Header = () => {
 
                 <img src={wellness} alt="Wellness" className="z-10" />
                 <nav
-                    className={`${menu ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none lg:pointer-events-auto lg:opacity-100"} flex fixed top-0 left-0 bottom-0 right-0 transition-opacity duration-300 ease-in-out lg:flex lg:static lg:mx-auto`}
+                    className={`${menu ? "block pointer-events-auto" : "hidden pointer-events-none lg:pointer-events-auto lg:opacity-100"} flex fixed top-0 left-0 bottom-0 right-0 lg:flex lg:static lg:mx-auto`}
                 >
                     <div
                         style={{ backgroundImage: `url(${heroBg})` }}
