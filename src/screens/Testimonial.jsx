@@ -35,37 +35,37 @@ const Testimonial = () => {
 
     return (
         <Section>
-            <div className="flex items-center justify-center flex-col gap-[50px]">
+            <div className="flex items-center justify-center flex-col gap-12.5">
                 <div className="flex items-center justify-center flex-col gap-7.5 text-center">
                     <Label>testimonial</Label>
                     <Heading className="text-center">
                         Review About Our Services from Patient
                     </Heading>
                 </div>
-                <div className="flex items-start justify-center flex-col gap-[30px]">
-                    <div className="flex items-start justify-center flex-col gap-[10px] w-full">
+                <div className="flex items-start justify-center flex-col gap-7.5">
+                    <div className="flex items-start justify-center flex-col gap-2.5 w-full">
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             {visibleReviews.map((review) => (
                                 <div
                                     key={review.id}
-                                    className="flex items-start justify-center flex-col gap-[22px] px-[10px] py-[16px]"
+                                    className="flex items-start justify-center flex-col gap-5.5 px-2.5 py-4"
                                 >
                                     <div className="flex items-center justify-center w-full">
                                         <SubHeading>
                                             <img
                                                 src={quotes}
                                                 alt=""
-                                                className="inline mr-[10px] mb-[20px]"
+                                                className="inline mr-2.5 mb-5"
                                             />
                                             {review.review}
                                             <img
                                                 src={quotes}
                                                 alt=""
-                                                className="inline ml-[10px] mt-[5px] rotate-180"
+                                                className="inline ml-2.5 mt-1.25 rotate-180"
                                             />
                                         </SubHeading>
                                     </div>
-                                    <div className="flex justify-start items-center gap-[16px]">
+                                    <div className="flex justify-start items-center gap-4">
                                         <div>
                                             <img src={review.profile} alt="" />
                                         </div>
@@ -76,7 +76,7 @@ const Testimonial = () => {
                                 </div>
                             ))}
                         </div>
-                        <div className="h-[3px] w-full bg-textSecondary/10 rounded-full">
+                        <div className="h-0.75 w-full bg-textSecondary/10 rounded-full">
                             <div
                                 className="h-full bg-accent transition-all duration-300 rounded-full"
                                 style={{
@@ -86,7 +86,7 @@ const Testimonial = () => {
                             />
                         </div>
                     </div>
-                    <div className="flex items-center justify-start gap-[16px]">
+                    <div className="flex items-center justify-start gap-4">
                         <NavButton
                             prevBtn
                             disabled={isFirst}

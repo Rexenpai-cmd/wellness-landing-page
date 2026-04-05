@@ -6,13 +6,13 @@ const NavButton = ({ className, onClick, nextBtn, prevBtn, disabled }) => {
         <button
             onClick={onClick}
             disabled={disabled}
-            className={`relative overflow-hidden px-[16px] py-[8px] border-2 rounded-full cursor-pointer flex items-center justify-center group ${disabled ? "border-textTertiary/40" : "text-secondary"}`}
+            className={`relative overflow-hidden px-4 py-2 border-2 rounded-full cursor-pointer flex items-center justify-center group ${disabled ? "border-textTertiary/40" : "text-secondary"}`}
         >
             <div
                 className={`w-full h-full absolute right-full transition-all duration-400 ease-in-out group-hover:right-0 ${disabled ? "" : "bg-primaryHover/20"}`}
             />
             {prevBtn ? (
-                <div className="flex items-center justify-center gap-[5px] z-10">
+                <div className="flex items-center justify-center gap-1.25 z-10">
                     <img
                         src={disabled ? greyArrowLeft : orangeArrowRight}
                         alt=""
@@ -25,7 +25,7 @@ const NavButton = ({ className, onClick, nextBtn, prevBtn, disabled }) => {
                     </h6>
                 </div>
             ) : (
-                <div className="flex items-center justify-center gap-[5px] z-10">
+                <div className="flex items-center justify-center gap-1.25 z-10">
                     <h6
                         className={`text-s7 font-medium ${disabled ? "text-textTertiary/40" : "text-secondary"}`}
                     >
