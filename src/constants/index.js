@@ -46,6 +46,7 @@ import instagram from "../assets/svg/Instagram.svg";
 import whatsApp from "../assets/svg/WhatsApp.svg";
 import logo from "../assets/svg/logo.svg";
 import wellness from "../assets/svg/wellness.svg";
+import quotes from "../assets/svg/quotes.svg";
 import menu from "../assets/svg/menu.svg";
 import whiteDiagonalArrow from "../assets/svg/white-diagonal-arrow.svg";
 
@@ -92,6 +93,7 @@ export {
     clock,
     bluePlay,
     drops,
+    quotes,
     redArrowRight,
     orangeDiagonalArrow,
     whiteArrowRight,

@@ -4,6 +4,8 @@ import { greyArrowLeft, orangeArrowRight } from "../constants";
 const NavButton = ({ className, onClick, nextBtn, prevBtn, disabled }) => {
     return (
         <button
+            onClick={onClick}
+            disabled={disabled}
             className={`relative overflow-hidden px-[16px] py-[8px] border-2 rounded-full cursor-pointer flex items-center justify-center group ${disabled ? "border-textTertiary/40" : "text-secondary"}`}
         >
             <div

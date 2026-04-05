@@ -2,7 +2,7 @@ import React from "react";
 
 const SubHeading = ({ className, children }) => {
     return (
-        <h6 className={`text-b3 md:text-b2 text-textPrimary ${className}`}>
+        <h6 className={`text-b3 md:text-b2 text-[#424242] ${className}`}>
             {children}
         </h6>
     );
