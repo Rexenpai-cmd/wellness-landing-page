@@ -1,11 +1,12 @@
 import React from "react";
 import { companies } from "../constants";
+import Section from "./Section";
 
 const Companies = () => {
     return (
-        <div
+        <Section
             id="companies"
-            className="flex items-center justify-center w-full py-25 px-16 lg:px-30"
+            className="flex items-center justify-center w-full"
         >
             <div className="flex flex-row flex-wrap shrink-0 w-full gap-12.5">
                 {companies.map((c) => (
@@ -20,7 +21,7 @@ const Companies = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </Section>
     );
 };
 

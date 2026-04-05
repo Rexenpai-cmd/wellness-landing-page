@@ -10,7 +10,7 @@ const Doctors = () => {
     const [showAll, setShowAll] = useState(false);
 
     return (
-        <Section className="py-32.5">
+        <Section id="doctors">
             <div className="w-full flex items-center justify-center flex-col gap-17.5">
                 <div className="w-full flex items-center justify-center gap-8.75 flex-col">
                     <div className="flex items-center justify-center flex-col gap-7.5 text-center">

@@ -10,6 +10,7 @@ import Doctors from "./screens/Doctors";
 import Appointment from "./screens/Appointment";
 import Pricing from "./screens/Pricing";
 import Experience from "./screens/Experience";
+import Testimonial from "./screens/Testimonial";
 
 const App = () => {
     return (
@@ -24,6 +25,7 @@ const App = () => {
                 <Doctors />
                 <Pricing />
                 <Experience />
+                <Testimonial />
             </div>
         </>
     );

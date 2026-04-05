@@ -1,51 +1,45 @@
 import React from "react";
-import { appImg1, appImg2, blueDiagonalArrow } from "../constants";
-import Paragraph from "../components/Paragraph";
+import Heading from "../components/Heading";
+import SectionBg from "../components/SectionBg";
 import SubHeading from "../components/SubHeading";
+import { appImg2, checkmark, experience, heroBg } from "../constants";
+import Paragraph from "../components/Paragraph";
 import Button from "../components/Button";
 
-const Appointment = () => {
+const Experience = () => {
     return (
-        <section className="w-full px-4.75 lg:px-7.5">
-            <div className="relative flex items-center justify-center flex-col lg:flex-row lg:px-22.5">
-                <div //this one
-                    style={{ backgroundImage: `url(${appImg1})` }}
-                    className="relative px-7.5 lg:px-17.5 py-12.5 pb-37.5 flex-1 items-center justify-center bg-cover bg-center bg-no-repeat h-125 rounded-tr-3xl rounded-br-3xl rounded-tr-0 rounded-tl-3xl rounded-bl-3xl overflow-hidden"
-                >
-                    <div className="flex items-center justify-center flex-col gap-7.5">
-                        <h1 className="text-h9 z-10 text-white font-semibold">
-                            Want to Immediately See Our Trusted Doctor?
-                        </h1>
-                        <SubHeading className="text-white z-10 font-light">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Etiam hendrerit metus ex, id ullamcorper massa
-                            accumsan volutpat. Etiam viverra pharetra dui, nec
-                            aliquet nisi consequat sit amet. 
-                        </SubHeading>
-                    </div>
-                    <div className="w-full flex items-center justify-center lg:justify-start">
-                        <Button whiteBtn className="z-10 mt-16.5">
-                            <h5 className="text-s5 z-10 font-medium text-darkBlue">
-                                Book Appointment Now!
-                            </h5>
-                            <img
-                                src={blueDiagonalArrow}
-                                alt="Arrow Right"
-                                className="z-10"
-                            />
+        <section className="md:px-4.75 lg:px-7.5">
+            <div className="flex items-center justify-center w-full m-h-[525px] flex-col lg:flex-row">
+                <div className="relative flex items-start justify-center flex-col h-full px-[90px] py-[50px]">
+                    <div
+                        style={{ backgroundImage: `url(${heroBg})` }}
+                        className="w-full absolute top-0 left-0 right-0 bottom-0 bg-cover bg-center bg-no-repeat"
+                    />
+                    <div className="flex items-start justify-center flex-col z-10 gap-[66px]">
+                        <div className="flex items-start justify-center flex-col gap-[30px]">
+                            {" "}
+                            <h1 className="text-h8 font-bold text-white">
+                                Want to Immediately See Our Trusted Doctor?
+                            </h1>
+                            <SubHeading>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Etiam hendrerit metus ex, id
+                                ullamcorper massa accumsan volutpat. Etiam
+                                viverra pharetra dui, nec aliquet nisi consequat
+                                sit amet. 
+                            </SubHeading>
+                        </div>
+                        <Button>
+                            <h1>Book Appointment Now!</h1>
                         </Button>
                     </div>
-
-                    <div className="bg-darkBlue/90 absolute top-0 bottom-0 left-0 right-0" />
                 </div>
-                <div className="absolute lg:block top-[85%] items-center justify-center px-5">
-                    <div className="flex items-center justify-center bg-primary rounded-3xl">
-                        <img src={appImg2} alt="Image" className="mt-15" />
-                    </div>
+                <div className=" h-[525px] w-[567px] shrink-0 bg-primary pt-[50px]">
+                    <img src={appImg2} alt="" className="h-full" />
                 </div>
             </div>
         </section>
     );
 };
 
-export default Appointment;
+export default Experience;
